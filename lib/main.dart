@@ -33,6 +33,7 @@ class RickAndMortyApp extends StatelessWidget {
       ],
       child: MaterialApp.router(
         title: 'Rick & Morty Explorer',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
           useMaterial3: true,
